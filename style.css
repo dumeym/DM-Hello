@@ -1,0 +1,87 @@
+h2	{
+	color: yellow;
+	font-size: 30px;
+	font-family: "Avenir","Helvetica","sans-serif"/*Microsoft Yahei*/;
+	text-decoration: underline;
+}
+body {
+	font-family: arial;
+	color: white;
+	background-color: #778288;
+	magrin:0px;/*这行是为了去掉整个页面的默认边框，以便设定更高大上的感觉*/
+}
+
+div {
+	border: 1px solid green;
+	border: 2px dashed #33FF12;
+	border: 1px dotted #77F288;
+}
+
+.beataults {/*.+名字表示一个组class*/
+	border-radius: 50px;
+	box-shadow: 5px 5px 3px black;
+}
+
+#leader {/*#+名字表示一个id*/
+	border:5px solid red;
+}
+
+
+
+.Message{
+	font-family: Segoe Print;
+	font-size: 8px;
+
+}
+.MessageLable{
+	margin:5px;
+	padding:2px; 
+}
+.MessageContent{
+	background-color: rgba(255,255,255,0.65);
+	color: black;
+	border-radius: 16px;
+	margin:10px;
+	padding:10px; 
+	text-align: left;	
+}
+
+.Form{
+	font-size: 20px;
+	font-family: 
+}
+.FormLabel{
+	text-align: left;
+	color: white;
+
+}
+.FormContent{
+	height: auto;
+	width: 100%;
+	background-color: #A7ADB1;
+
+}
+.FormBtn{
+	width: 90%;
+	height: 50px;
+	color: white;
+	text-align: center;
+	display: inline;
+	background-color: #568bf7;
+	border-radius: 30px;
+}
+
+#box-list table{
+	width: 90%;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto; /*自动适应页面宽*/
+}
+
+#box-form table{
+	color: black;
+	background-color: #778288;	
+	width:100%;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
